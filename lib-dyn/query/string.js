@@ -1,5 +1,5 @@
 /*eslint max-len: 0, no-var:0 */
-
+import { Buffer } from 'node:buffer';
 export const charsRegex = /[\0\b\t\n\r\x1a"'\\]/g; // eslint-disable-line no-control-regex
 export const charsMap = {
   '\0': '\\0',
